@@ -42,6 +42,6 @@ filosofo.
 
 
 Video:
-
+https://drive.google.com/file/d/1LGdMrciz5rQkWvmuau7CxOg1IqNDdQyo/view?usp=sharing
 
 
