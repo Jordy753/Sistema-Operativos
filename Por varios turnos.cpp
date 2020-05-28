@@ -109,8 +109,8 @@ void filoso(int in,int mn, int nn){ //Filosofo come o piensa
         int counter=0;
         for(int j=tiem1;j<tmax;j++){
             if(estomagos[in-1]> -100){
-                estomagos[in-1]=estomagos[in-1]-10;         //d) decremento del valor de su estomago
-                counter=counter+10;
+                estomagos[in-1]=estomagos[in-1]-25;         //d) decremento del valor de su estomago
+                counter=counter+25;
             }
             else{
                 cout<<"El Filosofo "<<in<<" se puede morir de hambre\n";        //g) un filosofo se puede morir de hambre
@@ -124,8 +124,8 @@ void filoso(int in,int mn, int nn){ //Filosofo come o piensa
         counter=0;
         for(int j=tiem2;j<tmax;j++){
             if(estomagos[mn-1]> -100){
-                estomagos[mn-1]=estomagos[mn-1]-10;         //d) decremento del valor de su estomago
-                counter=counter+10;
+                estomagos[mn-1]=estomagos[mn-1]-25;         //d) decremento del valor de su estomago
+                counter=counter+25;
             }
             else{
                 cout<<"El Filosofo "<<mn<<" se puede morir de hambre\n";        //g) un filosofo se puede morir de hambre
@@ -139,8 +139,8 @@ void filoso(int in,int mn, int nn){ //Filosofo come o piensa
         counter=0;
         for(int j=tiem3;j<tmax;j++){
             if(estomagos[nn-1]> -100){
-                estomagos[nn-1]=estomagos[nn-1]-10;         //d) decremento del valor de su estomago
-                counter=counter+10;
+                estomagos[nn-1]=estomagos[nn-1]-25;         //d) decremento del valor de su estomago
+                counter=counter+25;
             }
             else{
                 cout<<"El Filosofo "<<nn<<" se puede morir de hambre\n";        //g) un filosofo se puede morir de hambre
@@ -158,8 +158,8 @@ void filoso(int in,int mn, int nn){ //Filosofo come o piensa
 
             for(int j=0;j<tmax;j++){            //El tiempo que pensaron
                 if(estomagos[i]> -100){
-                    estomagos[i]=estomagos[i]-10;           //d) decremento del valor de su estomago
-                    counter2=counter2+10;
+                    estomagos[i]=estomagos[i]-25;           //d) decremento del valor de su estomago
+                    counter2=counter2+25;
                 }
                 else{
                     cout<<"El Filosofo "<<i+1<<" se puede morir de hambre\n";   //g) un filosofo se puede morir de hambre
